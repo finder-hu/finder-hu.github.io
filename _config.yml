@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: HuLongHuai's Blog
+title: LongHuai Hu's Blog
 subtitle: Stay Hungry, Stay Foolish
 description: hulonghuai's blog
 author: hulonghuai
@@ -68,4 +68,5 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  branch: master

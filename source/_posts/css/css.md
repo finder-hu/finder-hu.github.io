@@ -1,6 +1,6 @@
 ---
 ## 应用CSS方式
-title: css
+title: CSS
 categories:
 - css
 date: 2017-03-20 12:30

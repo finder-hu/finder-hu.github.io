@@ -1,5 +1,5 @@
 ---
-title: css animation
+title: CSS Animation
 categories:
 - css
 date: 2017-03-21
