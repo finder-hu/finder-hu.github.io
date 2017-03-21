@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
+title: HuLongHuai's Blog
+subtitle: Stay Hungry, Stay Foolish
+description: hulonghuai's blog
+author: hulonghuai
 language:
 timezone:
 
@@ -68,6 +68,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo:
-  branch: master
+  type:
