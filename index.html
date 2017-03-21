@@ -3,16 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo</title>
+  <title>LongHuai Hu&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+  <meta name="description" content="hulonghuai&apos;s blog">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LongHuai Hu's Blog">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="LongHuai Hu's Blog">
+<meta property="og:description" content="hulonghuai&apos;s blog">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="LongHuai Hu's Blog">
+<meta name="twitter:description" content="hulonghuai&apos;s blog">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="LongHuai Hu&#39;s Blog" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -33,8 +36,12 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">LongHuai Hu&#39;s Blog</a>
       </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Stay Hungry, Stay Foolish</a>
+        </h2>
       
     </div>
     <div id="header-inner" class="inner">
@@ -50,7 +57,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -61,12 +68,16 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-css/attribute_selectors" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/02/07/hello-world/" class="article-date">
-  <time datetime="2017-02-07T10:21:10.822Z" itemprop="datePublished">2017-02-07</time>
+    <a href="/2017/03/21/css/attribute_selectors/" class="article-date">
+  <time datetime="2017-03-20T16:00:00.000Z" itemprop="datePublished">2017-03-21</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/css/">css</a>►<a class="article-category-link" href="/categories/css/attribute-selectors/">attribute selectors</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -75,7 +86,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/07/hello-world/">Hello World</a>
+      <a class="article-title" href="/2017/03/21/css/attribute_selectors/">CSS Attribute selectors</a>
     </h1>
   
 
@@ -83,20 +94,689 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/21/css/attribute_selectors/" data-id="cj0jhtfob0000bwuk6zt2xucw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-css/animation" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/21/css/animation/" class="article-date">
+  <time datetime="2017-03-20T16:00:00.000Z" itemprop="datePublished">2017-03-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/css/">css</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/21/css/animation/">CSS Animation</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-Animation"><a href="#1-Animation" class="headerlink" title="1. Animation"></a>1. Animation</h2><h3 id="1-1-Advantage"><a href="#1-1-Advantage" class="headerlink" title="1.1 Advantage"></a>1.1 Advantage</h3><ol>
+<li>They’re easy to use for simple animation.</li>
+<li>The animation run well, even under moderate system load.</li>
+<li>Browser will optimize performance and efficiency.</li>
+</ol>
+<h3 id="1-2-Configuring-the-animation"><a href="#1-2-Configuring-the-animation" class="headerlink" title="1.2 Configuring the animation"></a>1.2 Configuring the animation</h3><h4 id="1-2-1-Properties"><a href="#1-2-1-Properties" class="headerlink" title="1.2.1 Properties:"></a>1.2.1 Properties:</h4><table>
+<thead>
+<tr>
+<th style="text-align:left">name</th>
+<th style="text-align:left">value range</th>
+<th style="text-align:left">description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">animation-delay</td>
+<td style="text-align:left"><code>&lt;time&gt;</code>,e.g:2s</td>
+<td style="text-align:left">Specifies when the animation start.The value is the offset time from the time at which the animation is applied to the element.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-direction</td>
+<td style="text-align:left">normal;reverse;alternate;alternate-reverse</td>
+<td style="text-align:left">Indicates whether the animation should play in reverse on alternate cycles.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-duration</td>
+<td style="text-align:left"><code>&lt;time&gt;</code>,eg:3s</td>
+<td style="text-align:left">Configures the length of time that an animation should take to complish one cycle.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-iterate-count</td>
+<td style="text-align:left"><code>&lt;number&gt;</code>,e.g:2,or infinite</td>
+<td style="text-align:left">Configures the number of times an animation should repeat.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-name</td>
+<td style="text-align:left">name of @keyframes</td>
+<td style="text-align:left">Specifies the name of the @keyframes at-rule descripting the animation’s keyframes.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-play-state</td>
+<td style="text-align:left">runing;pause</td>
+<td style="text-align:left">Lets you pause and resume the animation sequence.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-timing-function</td>
+<td style="text-align:left">ease,ease-in,ease-out,ease-in-out,linear,step-start,step-end,cubic-bezier,steps.<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function" target="_blank" rel="external">click here for more detail </a>,<a href="http://www.css3beziercurve.net/" target="_blank" rel="external">tool for cubic-bezier</a></td>
+<td style="text-align:left">Configures the timing of the animation</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-fill-mode</td>
+<td style="text-align:left">none,forwards,backwards,both</td>
+<td style="text-align:left">Configures what values are applied by the animation before and after it is executing.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1-2-2-Keyframes"><a href="#1-2-2-Keyframes" class="headerlink" title="1.2.2 Keyframes"></a>1.2.2 Keyframes</h4><h5 id="e-g"><a href="#e-g" class="headerlink" title="e.g:"></a>e.g:</h5><pre><code>p {
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+@keyframes {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  75% {
+    margin-left:50%;
+    width: 200%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+</code></pre><h4 id="1-2-3-Using-animation-shorthand"><a href="#1-2-3-Using-animation-shorthand" class="headerlink" title="1.2.3 Using animation shorthand"></a>1.2.3 Using animation shorthand</h4><p>Rule:The first value that can be parsed as a <code>&lt;time&gt;</code> is assigned to <code>animation-duration</code>, and the second one is assigned to <code>animation-delay</code>.<code>animation-name</code> can be distinguished from other properties.</p>
+<h5 id="e-g-1"><a href="#e-g-1" class="headerlink" title="e.g:"></a>e.g:</h5><pre><code>// duration | timing-function | delay | interation-count | direction | fill-mode | play-state | name
+animation: 3s ease-in 1s 2 reverse both paused sliedin;
+// duration | timing-function | delay | name
+animation: 3s ease-in 2s sliedin;
+// duration | name
+animation: 3s sliedin;
+</code></pre><h4 id="1-2-4-Setting-multiple-animation-property-values"><a href="#1-2-4-Setting-multiple-animation-property-values" class="headerlink" title="1.2.4 Setting multiple animation property values"></a>1.2.4 Setting multiple animation property values</h4><p>The CSS animation longhand values can accept multiple values,separated by commas.</p>
+<h5 id="e-g-2"><a href="#e-g-2" class="headerlink" title="e.g:"></a>e.g:</h5><pre><code>animation-name: fadeInOut, moveLeft300px, bounce;
+animation-duration: 3s, 2s;
+</code></pre><h4 id="1-2-5-Using-animation-events"><a href="#1-2-5-Using-animation-events" class="headerlink" title="1.2.5 Using animation events"></a>1.2.5 Using animation events</h4><ul>
+<li>animationstart</li>
+<li>animationend</li>
+<li>animationiteration<h2 id="2-Run-animation-again"><a href="#2-Run-animation-again" class="headerlink" title="2. Run animation again"></a>2. Run animation again</h2><h3 id="e-g-3"><a href="#e-g-3" class="headerlink" title="e.g:"></a>e.g:</h3><h4 id="html"><a href="#html" class="headerlink" title="html"></a>html</h4><pre><code>&lt;p class=&quot;data ani&quot;&gt;this data has animation&lt;/p&gt;
+&lt;button onclick=play()&gt;play&lt;/button&gt;
+</code></pre><h4 id="css"><a href="#css" class="headerlink" title="css"></a>css</h4><pre><code>.ani {
+  animation-name: slidein;
+  animation-duration: 2s;
+  animation-iterate-count: 2;
+}
+@keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+</code></pre><h4 id="javascript"><a href="#javascript" class="headerlink" title="javascript"></a>javascript</h4><pre><code>function play(){
+  document.querySelector(&quot;.data&quot;).className = &quot;data&quot;;
+  window.requestAnimationFrame((time)=&gt;{
+    window.requestAnimationFrame((time)=&gt;{
+      document.querySelector(&quot;.data&quot;).className = &quot;data ani&quot;;
+      });
+    });
+}
+</code></pre><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2></li>
+</ul>
+<ol>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#Using_animation_shorthand" target="_blank" rel="external">Animaiton basic</a>.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function" target="_blank" rel="external">single-transition-timing-function–Cubic bezier</a>.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Tips" target="_blank" rel="external">Animation tips</a>.</li>
+</ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/07/hello-world/" data-id="ciyvdvj0s0000x4ukibl7jzt1" class="article-share-link">Delen</a>
+      <a data-url="http://yoursite.com/2017/03/21/css/animation/" data-id="cj0jhneky000dt4ukoaa3ll38" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-css/css_overview" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/21/css/css_overview/" class="article-date">
+  <time datetime="2017-03-20T16:00:00.000Z" itemprop="datePublished">2017-03-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/css/">css</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/21/css/css_overview/">CSS Overview</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li>外部方式。写到外部css文件中，中html中通过style标签引用。</li>
+<li>内部方式。写在html中的style标签中。</li>
+<li>内联方式。写在标签的style属性中</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/21/css/css_overview/" data-id="cj0jhneky000gt4uka9q6x4nm" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-css/simple_selectors" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/21/css/simple_selectors/" class="article-date">
+  <time datetime="2017-03-20T16:00:00.000Z" itemprop="datePublished">2017-03-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/css/">css</a>►<a class="article-category-link" href="/categories/css/simple-selectors/">simple selectors</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/21/css/simple_selectors/">CSS Simple Selectors</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li>Type selectors<pre><code>/*html*/
+&lt;p&gt;this is a p&lt;/p&gt;
+/*css*/
+p {
+  color:red;
+}
+</code></pre></li>
+<li>Class selectors<pre><code>/*html*/
+&lt;p class = &quot;first second&quot;&gt;this is a p&lt;/p&gt;
+/*css*/
+.first {
+border-left: 12px solid #8F77B5;
+}
+</code></pre></li>
+<li>ID selectors<pre><code>/*html*/
+&lt;p id=&quot;thisID&quot;&gt;this is a p&lt;/p&gt;
+/*css*/
+#id {
+  font-family: monospace;
+  text-transform: uppercase;
+}
+</code></pre></li>
+<li>universal selector<pre><code>/*css*/
+* {
+  color: green;
+}
+</code></pre></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/21/css/simple_selectors/" data-id="cj0jhneky000ht4uk6nkdej0e" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-css/css" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/20/css/css/" class="article-date">
+  <time datetime="2017-03-20T04:30:00.000Z" itemprop="datePublished">2017-03-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/css/">css</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/20/css/css/">CSS</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Cascade Stylesheets - or CSS- is used to style your content as HTML is used to define the structure and semantics of it. Main parts of CSS is mentioned as follow:</p>
+<h3 id="1-CSS-Basic"><a href="#1-CSS-Basic" class="headerlink" title="1. CSS Basic"></a>1. CSS Basic</h3><ul>
+<li>CSS overview</li>
+<li>Simple selectors</li>
+<li>Attribute selectors</li>
+<li>Pseude-classes and pseude-elements selectors</li>
+<li>Combinators and multiple selectors</li>
+<li>CSS values and units</li>
+<li>Cascade and inheritance</li>
+<li>Debugging CSS<h3 id="2-Styling-text"><a href="#2-Styling-text" class="headerlink" title="2. Styling text"></a>2. Styling text</h3></li>
+<li>styling text overview</li>
+<li>Fundamental text and font Styling</li>
+<li>Styling lists</li>
+<li>Styling links</li>
+<li>web fonts<h3 id="3-Styling-boxes"><a href="#3-Styling-boxes" class="headerlink" title="3. Styling boxes"></a>3. Styling boxes</h3></li>
+<li>Styling boxes overview</li>
+<li>Box model rerap</li>
+<li>Backgrounds</li>
+<li>Borders</li>
+<li>Styling tables</li>
+<li>Advanced box effects<h3 id="4-CSS-layout"><a href="#4-CSS-layout" class="headerlink" title="4. CSS layout"></a>4. CSS layout</h3></li>
+<li>CSS layout overview</li>
+<li>Floats</li>
+<li>Positioning</li>
+<li>Practical positioning examples</li>
+<li>Flexbox</li>
+<li>Grids</li>
+</ul>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="external">CSS</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank" rel="external">CSS Tutorials</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank" rel="external">CSS Reference</a></li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/20/css/css/" data-id="cj0jhneky000et4ukb0ymg6ib" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-html/html_drag_and_drop_api" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/20/html/html_drag_and_drop_api/" class="article-date">
+  <time datetime="2017-03-20T04:30:00.000Z" itemprop="datePublished">2017-03-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/html/">html</a>►<a class="article-category-link" href="/categories/html/drag-and-drop-api/">drag and drop api</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/20/html/html_drag_and_drop_api/">drag and drop api</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API" target="_blank" rel="external">reference material</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/20/html/html_drag_and_drop_api/" data-id="cj0jhneky000it4ukk8cv34yk" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-html_drag_and_drop_api" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/20/html_drag_and_drop_api/" class="article-date">
+  <time datetime="2017-03-20T04:30:00.000Z" itemprop="datePublished">2017-03-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/html/">html</a>►<a class="article-category-link" href="/categories/html/drag-and-drop-api/">drag and drop api</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/20/html_drag_and_drop_api/">drag and drop api</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API" target="_blank" rel="external">Html drag and dop APIS</a></li>
+<li><a href="https://mdn.github.io/dom-examples/drag-and-drop/copy-move-DataTransferItemList.html" target="_blank" rel="external">Example</a></li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/20/html_drag_and_drop_api/" data-id="cj0jhneki0003t4ukv3kcp0vu" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-html/html_global_attributes_and_event_handlers" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/20/html/html_global_attributes_and_event_handlers/" class="article-date">
+  <time datetime="2017-03-20T04:30:00.000Z" itemprop="datePublished">2017-03-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/html/">html</a>►<a class="article-category-link" href="/categories/html/global-attibute-and-event-handler/">global attibute and event handler</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/20/html/html_global_attributes_and_event_handlers/">global attributes and event handlers of html</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="global-attributes"><a href="#global-attributes" class="headerlink" title="global attributes"></a>global attributes</h2><ul>
+<li>accesskey</li>
+<li>class</li>
+<li>contenteditable</li>
+<li>data-*</li>
+<li>draggable</li>
+<li>dropzone</li>
+<li>hiden</li>
+<li>id</li>
+<li>lang</li>
+<li>slot</li>
+<li>spellcheck</li>
+<li>style</li>
+<li>tabindex</li>
+<li>title</li>
+<li>translate</li>
+</ul>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes" target="_blank" rel="external">reference material</a></p>
+<h2 id="global-event-handlers"><a href="#global-event-handlers" class="headerlink" title="global event handlers"></a>global event handlers</h2><ul>
+<li>onabort</li>
+<li>onanimationcancel</li>
+<li>onanimationend</li>
+<li>onanimationiteration</li>
+<li>onanimationstart</li>
+<li>onerror</li>
+<li>onfocus</li>
+<li>oncancel</li>
+<li>oncanplay</li>
+<li>onchange</li>
+<li>onclick</li>
+<li>onclose</li>
+<li>ondrag</li>
+<li>ondragenter</li>
+<li>ondrageexit</li>
+<li>ondragleave</li>
+<li>ondragover</li>
+<li>ondragover</li>
+<li>ondragstart</li>
+<li>ondrop</li>
+<li>oninput</li>
+<li>…</li>
+</ul>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers" target="_blank" rel="external">reference materials</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/20/html/html_global_attributes_and_event_handlers/" data-id="cj0jhneky000kt4uki171br3e" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/09/git_command/" class="article-date">
+  <time datetime="2017-02-09T10:40:52.000Z" itemprop="datePublished">2017-02-09</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/git/">git</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/09/git_command/">git 命令总结</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">命令</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">git init</td>
+<td style="text-align:left">初始化一个git项目</td>
+</tr>
+<tr>
+<td style="text-align:left">git add fileName <br> git add directoryName</td>
+<td style="text-align:left">不同情况下功能不同，分别有：<br>1. 开始追踪新文件。逆操作为git rm fileName。<br> 2. 添加文件或者是文件夹下面已追踪的的文件变动到暂存区。逆操作为git reset HEAD fileName.<br>3. 合并时把有冲突的文件标记为已解决状态。</td>
+</tr>
+<tr>
+<td style="text-align:left">git rm fileName</td>
+<td style="text-align:left">不追踪文件fileName.</td>
+</tr>
+<tr>
+<td style="text-align:left">git reset HEAD fileName</td>
+<td style="text-align:left">取消暂存文件fileName。</td>
+</tr>
+<tr>
+<td style="text-align:left">git checkout – fileName</td>
+<td style="text-align:left">忽略文件fileName的变动。</td>
+</tr>
+<tr>
+<td style="text-align:left">git status</td>
+<td style="text-align:left">查看当前分支的状态</td>
+</tr>
+<tr>
+<td style="text-align:left">git diff</td>
+<td style="text-align:left">查看文件改动的具体内容</td>
+</tr>
+</tbody>
+</table>
+<h3 id="版本操作"><a href="#版本操作" class="headerlink" title="版本操作"></a>版本操作</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">命令</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">git commit -m “message”</td>
+<td style="text-align:left">提交暂存区的文件到本地仓库</td>
+</tr>
+<tr>
+<td style="text-align:left">git commit -m “init message”<br> git add forgoten_file <br> git comit -amend</td>
+<td style="text-align:left">在commit之后发现还有文件未添加，添加未添加的文件，然后运行git commit -amend 则只会有一次commit信息。</td>
+</tr>
+</tbody>
+</table>
+<p>git reset –hard HEAD^    退货到上一次提交的版本<br>git reset –hard HEAD^^    退货到上上一次提交的版本<br>git reset –hard hashcode    跳到hashcode指定的版本，hashcode可以为前几个数字，一般4、5个即可。</p>
+<ol>
+<li>日志<br>git log     列出所有历史记录的详细信息<br>git log -n    前n条详细信息<br>git log –graph    显示提交历史图<br>git log –pretty=oneline    每次提交显示在一行<br>git log –pretty=format:”%h - %an, %ar : %s”    定制化显示格式<br>git reflog</li>
+<li>克隆远端仓库到本地<br>git clone git@github.com:userName/projectName.git    克隆远端仓库到本地，并在本地创建master分支，该master分支追踪远端仓库origin/master分支<br>git clone git@github.com:userName/projectName.git -b dev    克隆远端仓库到本地，并在本地创建dev分支，该dev分支追踪远端仓库origin/dev分支。</li>
+<li>远端仓库操作<br>git remote -v    查看远端仓库<br>git remote add [name][url]    添加远端仓库<br>git remote rm [name]    删除远端仓库<br>git remote set-url –push [nam][newUrl]    修改远端仓库</li>
+<li>分支管理<br>• 本地分支<br>git branch    查看本地分支<br>git branch -a    查看所有分支包括远端分支<br>git branch [name]    创建本地分支<br>git checkout -b dev origin/dev    创建本地分支dev，切换到dev分支，该dev分支追踪远端分支origin/dev<br>git checkout -b [name]    创建并切换到新分支<br>git chekcout [name]    切换分支<br>git branch -d [name]    删除已经合并的分支<br>git branch -D [name]    强制删除<br>• 远端分支<br>git branch -r    查看远程分支<br>git push origin branchName    创建远程分支<br>git push origin –delete branchName    删除远程分支<br>• 追踪远端分支<br>git checkout –track origin/dev    使当前分支追踪远端分支origin/dev<br>• 拉取和提交<br>git pull    拉取远端分支内容并与本地分支合并。<br>git push    推送本地分支内容到远端分支。<br>• 合并分支<br>git merge brancName    合并分支branchName到当前分支。<br>• 变基分支<br>git rebase branchName    变基分支branchName到当前分支。</li>
+</ol>
+<h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><ol>
+<li><a href="https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2" target="_blank" rel="external">官方文档</a></li>
+<li><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖晓峰教程</a></li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/02/09/git_command/" data-id="cj0jhneit0000t4uk1der8e83" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-spring_boot_resart_vs_reload" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/09/spring_boot_resart_vs_reload/" class="article-date">
+  <time datetime="2017-02-09T09:30:00.000Z" itemprop="datePublished">2017-02-09</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/spring/">spring</a>►<a class="article-category-link" href="/categories/spring/boot/">boot</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/09/spring_boot_resart_vs_reload/">spring boot resart vs reload</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h3><ol>
+<li>restart<br>是有两个classloader，一个加载依赖中的类，另一个加载编写的类，当检测到编写的类发生变化时会创建新的classloader来加载编写的类,原classloader将结束，但当工程变大的时候每次restart的速度变慢。</li>
+<li>reload<br>是会在类文件发生变化时更新类文件，所以只有当类和方法签名不变的情况下才能正常工作，也就是说当添加类或者方法，改变方法参数结构是都不能工作。但是启动速度很快。</li>
+</ol>
+<h3 id="启动方式"><a href="#启动方式" class="headerlink" title="启动方式"></a>启动方式</h3><ol>
+<li>restart:任意一种启动方式都可以。</li>
+<li>reload:需要使用maven 插件，命令：mvn spring-boot:run,或者点击idea maven中的插件spring-boot:run运行。</li>
+</ol>
+<h3 id="使用场景对比"><a href="#使用场景对比" class="headerlink" title="使用场景对比"></a>使用场景对比</h3><ul>
+<li>restart适用于前期开发阶段，这个阶段主要是添加类和方法且工程较小。</li>
+<li>reload适用于后期开发阶段，这个阶段主要是修改具体实现，且工程较大。</li>
+</ul>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><ol>
+<li>restart 配置<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">build</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">plugins</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-maven-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.2.5.RELEASE<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">dependencies</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>springloaded<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.2.4.RELEASE<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">                <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">plugins</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">build</span>&gt;</span></div></pre></td></tr></table></figure></li>
+<li>reload配置<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-devtools<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></div></pre></td></tr></table></figure>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/02/09/spring_boot_resart_vs_reload/" data-id="cj0jhnekk0004t4ukum6gt4my" class="article-share-link">Share</a>
       
       
     </footer>
@@ -107,11 +787,22 @@
 
   
 
+
+  <nav id="page-nav">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">__('next') &raquo;</a>
+  </nav>
 </section>
         
           <aside id="sidebar">
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/css/">css</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/css/attribute-selectors/">attribute selectors</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/css/simple-selectors/">simple selectors</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/html/">html</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/html/drag-and-drop-api/">drag and drop api</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/html/global-attibute-and-event-handler/">global attibute and event handler</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/spring/">spring</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/spring/boot/">boot</a></li></ul></li></ul>
+    </div>
+  </div>
+
 
   
     
@@ -121,9 +812,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archieven</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li></ul>
     </div>
   </div>
 
@@ -131,12 +822,28 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recente berichten</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2017/02/07/hello-world/">Hello World</a>
+            <a href="/2017/03/21/css/attribute_selectors/">CSS Attribute selectors</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/21/css/animation/">CSS Animation</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/21/css/css_overview/">CSS Overview</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/21/css/simple_selectors/">CSS Simple Selectors</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/20/css/css/">CSS</a>
           </li>
         
       </ul>
@@ -151,7 +858,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2017 John Doe<br>
+      &copy; 2017 hulonghuai<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>

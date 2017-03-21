@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>CSS Animation | LongHuai Hu&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="1. Animation1.1 Advantage
+They’re easy to use for simple animation.
+The animation run well, even under moderate system load.
+Browser will optimize performance and efficiency.
+
+1.2 Configuring the anim">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS Animation">
+<meta property="og:url" content="http://yoursite.com/2017/03/21/css/animation/index.html">
+<meta property="og:site_name" content="LongHuai Hu's Blog">
+<meta property="og:description" content="1. Animation1.1 Advantage
+They’re easy to use for simple animation.
+The animation run well, even under moderate system load.
+Browser will optimize performance and efficiency.
+
+1.2 Configuring the anim">
+<meta property="og:updated_time" content="2017-03-21T12:07:24.914Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CSS Animation">
+<meta name="twitter:description" content="1. Animation1.1 Advantage
+They’re easy to use for simple animation.
+The animation run well, even under moderate system load.
+Browser will optimize performance and efficiency.
+
+1.2 Configuring the anim">
+  
+    <link rel="alternate" href="/atom.xml" title="LongHuai Hu&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">LongHuai Hu&#39;s Blog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Stay Hungry, Stay Foolish</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-css/animation" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/21/css/animation/" class="article-date">
+  <time datetime="2017-03-20T16:00:00.000Z" itemprop="datePublished">2017-03-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/css/">css</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      CSS Animation
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-Animation"><a href="#1-Animation" class="headerlink" title="1. Animation"></a>1. Animation</h2><h3 id="1-1-Advantage"><a href="#1-1-Advantage" class="headerlink" title="1.1 Advantage"></a>1.1 Advantage</h3><ol>
+<li>They’re easy to use for simple animation.</li>
+<li>The animation run well, even under moderate system load.</li>
+<li>Browser will optimize performance and efficiency.</li>
+</ol>
+<h3 id="1-2-Configuring-the-animation"><a href="#1-2-Configuring-the-animation" class="headerlink" title="1.2 Configuring the animation"></a>1.2 Configuring the animation</h3><h4 id="1-2-1-Properties"><a href="#1-2-1-Properties" class="headerlink" title="1.2.1 Properties:"></a>1.2.1 Properties:</h4><table>
+<thead>
+<tr>
+<th style="text-align:left">name</th>
+<th style="text-align:left">value range</th>
+<th style="text-align:left">description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">animation-delay</td>
+<td style="text-align:left"><code>&lt;time&gt;</code>,e.g:2s</td>
+<td style="text-align:left">Specifies when the animation start.The value is the offset time from the time at which the animation is applied to the element.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-direction</td>
+<td style="text-align:left">normal;reverse;alternate;alternate-reverse</td>
+<td style="text-align:left">Indicates whether the animation should play in reverse on alternate cycles.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-duration</td>
+<td style="text-align:left"><code>&lt;time&gt;</code>,eg:3s</td>
+<td style="text-align:left">Configures the length of time that an animation should take to complish one cycle.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-iterate-count</td>
+<td style="text-align:left"><code>&lt;number&gt;</code>,e.g:2,or infinite</td>
+<td style="text-align:left">Configures the number of times an animation should repeat.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-name</td>
+<td style="text-align:left">name of @keyframes</td>
+<td style="text-align:left">Specifies the name of the @keyframes at-rule descripting the animation’s keyframes.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-play-state</td>
+<td style="text-align:left">runing;pause</td>
+<td style="text-align:left">Lets you pause and resume the animation sequence.</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-timing-function</td>
+<td style="text-align:left">ease,ease-in,ease-out,ease-in-out,linear,step-start,step-end,cubic-bezier,steps.<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function" target="_blank" rel="external">click here for more detail </a>,<a href="http://www.css3beziercurve.net/" target="_blank" rel="external">tool for cubic-bezier</a></td>
+<td style="text-align:left">Configures the timing of the animation</td>
+</tr>
+<tr>
+<td style="text-align:left">animation-fill-mode</td>
+<td style="text-align:left">none,forwards,backwards,both</td>
+<td style="text-align:left">Configures what values are applied by the animation before and after it is executing.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1-2-2-Keyframes"><a href="#1-2-2-Keyframes" class="headerlink" title="1.2.2 Keyframes"></a>1.2.2 Keyframes</h4><h5 id="e-g"><a href="#e-g" class="headerlink" title="e.g:"></a>e.g:</h5><pre><code>p {
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+@keyframes {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  75% {
+    margin-left:50%;
+    width: 200%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+</code></pre><h4 id="1-2-3-Using-animation-shorthand"><a href="#1-2-3-Using-animation-shorthand" class="headerlink" title="1.2.3 Using animation shorthand"></a>1.2.3 Using animation shorthand</h4><p>Rule:The first value that can be parsed as a <code>&lt;time&gt;</code> is assigned to <code>animation-duration</code>, and the second one is assigned to <code>animation-delay</code>.<code>animation-name</code> can be distinguished from other properties.</p>
+<h5 id="e-g-1"><a href="#e-g-1" class="headerlink" title="e.g:"></a>e.g:</h5><pre><code>// duration | timing-function | delay | interation-count | direction | fill-mode | play-state | name
+animation: 3s ease-in 1s 2 reverse both paused sliedin;
+// duration | timing-function | delay | name
+animation: 3s ease-in 2s sliedin;
+// duration | name
+animation: 3s sliedin;
+</code></pre><h4 id="1-2-4-Setting-multiple-animation-property-values"><a href="#1-2-4-Setting-multiple-animation-property-values" class="headerlink" title="1.2.4 Setting multiple animation property values"></a>1.2.4 Setting multiple animation property values</h4><p>The CSS animation longhand values can accept multiple values,separated by commas.</p>
+<h5 id="e-g-2"><a href="#e-g-2" class="headerlink" title="e.g:"></a>e.g:</h5><pre><code>animation-name: fadeInOut, moveLeft300px, bounce;
+animation-duration: 3s, 2s;
+</code></pre><h4 id="1-2-5-Using-animation-events"><a href="#1-2-5-Using-animation-events" class="headerlink" title="1.2.5 Using animation events"></a>1.2.5 Using animation events</h4><ul>
+<li>animationstart</li>
+<li>animationend</li>
+<li>animationiteration<h2 id="2-Run-animation-again"><a href="#2-Run-animation-again" class="headerlink" title="2. Run animation again"></a>2. Run animation again</h2><h3 id="e-g-3"><a href="#e-g-3" class="headerlink" title="e.g:"></a>e.g:</h3><h4 id="html"><a href="#html" class="headerlink" title="html"></a>html</h4><pre><code>&lt;p class=&quot;data ani&quot;&gt;this data has animation&lt;/p&gt;
+&lt;button onclick=play()&gt;play&lt;/button&gt;
+</code></pre><h4 id="css"><a href="#css" class="headerlink" title="css"></a>css</h4><pre><code>.ani {
+  animation-name: slidein;
+  animation-duration: 2s;
+  animation-iterate-count: 2;
+}
+@keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+</code></pre><h4 id="javascript"><a href="#javascript" class="headerlink" title="javascript"></a>javascript</h4><pre><code>function play(){
+  document.querySelector(&quot;.data&quot;).className = &quot;data&quot;;
+  window.requestAnimationFrame((time)=&gt;{
+    window.requestAnimationFrame((time)=&gt;{
+      document.querySelector(&quot;.data&quot;).className = &quot;data ani&quot;;
+      });
+    });
+}
+</code></pre><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2></li>
+</ul>
+<ol>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#Using_animation_shorthand" target="_blank" rel="external">Animaiton basic</a>.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function" target="_blank" rel="external">single-transition-timing-function–Cubic bezier</a>.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Tips" target="_blank" rel="external">Animation tips</a>.</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/21/css/animation/" data-id="cj0jhneky000dt4ukoaa3ll38" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/03/21/css/attribute_selectors/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          CSS Attribute selectors
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/03/21/css/css_overview/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">CSS Overview</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/css/">css</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/css/attribute-selectors/">attribute selectors</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/css/simple-selectors/">simple selectors</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/html/">html</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/html/drag-and-drop-api/">drag and drop api</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/html/global-attibute-and-event-handler/">global attibute and event handler</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/spring/">spring</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/spring/boot/">boot</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/03/21/css/attribute_selectors/">CSS Attribute selectors</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/21/css/animation/">CSS Animation</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/21/css/css_overview/">CSS Overview</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/21/css/simple_selectors/">CSS Simple Selectors</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/20/css/css/">CSS</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 hulonghuai<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
